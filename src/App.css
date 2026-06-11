@@ -1,0 +1,580 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  text-align: center;
+}
+
+label,
+.text-blue {
+  color: rgb(8 73 163) !important;
+}
+
+input.form-control,
+select.form-select,
+textarea.form-control {
+  border-color: #87acdf !important;
+  border-radius: 8px;
+  height: 37px;
+}
+
+.error {
+  color: #e12638;
+  font-size: 12px;
+}
+
+.success-box {
+  background: #e6fffa;
+  color: #065f46;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  border-radius: 15px !important;
+}
+
+.pt-120 {
+  padding-top: 120px;
+}
+#app-content{
+    min-height: 100vh;
+    background-color: #87c9db42;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* Login page style */
+
+
+.placeholder-custom::placeholder {
+  font-size: 12px !important;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 18px;
+  box-shadow: 0px 0px 4px 0px #0849a396 !important;
+}
+
+.login-message {
+  color: #162838;
+}
+
+.form-control,
+.form-select {
+  border-radius: 10px;
+  height: 40px;
+}
+
+.btn-primary,
+.btn-outline-primary {
+  border-radius: 10px;
+  height: 37px;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+.input-with-icon i {
+  position: absolute;
+  right: 15px;
+  bottom: 7px;
+  color: #0849a3;
+  pointer-events: none;
+}
+
+.logo-text {
+  color: #fc6266 !important;
+}
+
+.text-link {
+  color: rgb(8 73 163) !important;
+}
+
+.fs-10 {
+  font-size: 10px !important;
+}
+
+.fs-12 {
+  font-size: 12px !important;
+}
+
+.fs-14 {
+  font-size: 14px !important;
+}
+
+.fs-15 {
+  font-size: 15px !important;
+}
+
+.fs-16 {
+  font-size: 16px !important;
+}
+
+.fs-18 {
+  font-size: 18px !important;
+}
+
+.fs-20 {
+  font-size: 20px !important;
+}
+
+.fs-22 {
+  font-size: 22px !important;
+}
+
+.fs-23 {
+  font-size: 23px !important;
+}
+
+.fs-25 {
+  font-size: 25px !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-5 {
+  margin-bottom: 2rem;
+}
+
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+
+.mr-0 {
+  margin-right: 0 !important;
+}
+
+.mr-4 {
+  margin-right: 2rem !important;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mt-3 {
+  margin-top: 3px !important;
+}
+
+.mt-10 {
+  margin-top: 10px !important;
+}
+
+.mt-28 {
+  margin-top: 28px !important;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.pl-3 {
+  padding-left: 3rem !important;
+}
+
+
+textarea {
+  height: 5rem !important;
+}
+
+/* Navbar style */
+.bg-light {
+  background-color: #fff !important;
+  margin-bottom: 1rem;
+}
+
+.bg-grey {
+  background-color: #fafafa !important;
+  ;
+}
+
+.nav-link {
+  font-size: 17px;
+  color: rgb(8 73 163) !important;
+
+  &.active {
+    font-weight: 600;
+  }
+}
+
+.nav-style {
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.text-primary {
+  color: rgb(8 73 163) !important;
+}
+
+.nav-underline {
+  gap: 3rem !important;
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+.btn-approve,
+.btn-reject,
+.btn-submit,
+.btn-cancel {
+  padding-bottom: 4px;
+  padding-top: 4px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.btn-back {
+  width: 100px !important;
+  padding: 0 !important;
+  margin: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.reject-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* horizontal center */
+  justify-content: center;
+  /* vertical center */
+  gap: 8px;
+}
+
+.reject-input {
+  width: 220px;
+  /* fixed width */
+}
+
+.form-check-input {
+  border: 1.2px solid #848080;
+}
+
+.edit-icon {
+  font-size: 25px;
+  color: rgb(8 73 163);
+}
+
+p {
+  margin-top: revert !important;
+  margin-bottom: revert !important;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+.ml-7 {
+  margin-left: 7px;
+}
+
+.ml-29 {
+  margin-left: 29px;
+}
+
+.p-t-1 {
+  padding-top: 1px;
+}
+
+.c-pointer {
+  cursor: pointer;
+}
+
+.password-icon i {
+  font-size: 17px;
+  color: #6c757d;
+  top: 0px;
+  right: 0px;
+  position: relative;
+}
+
+.password-btn {
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.bi-check-circle-fill {
+  color: #198754;
+  font-size: 14px;
+}
+
+.hero-blur-divider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 58.3%;
+  width: 56px;
+  background: linear-gradient(to right,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0.85) 35%,
+      rgba(255, 255, 255, 0.4) 65%,
+      rgba(255, 255, 255, 0) 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.appointment-card {
+  width: 90%;
+  max-width: 1200px;
+  /* prevents being too wide on large screens */
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+  .appointment-card {
+    width: 95%;
+  }
+}
+
+.border-end {
+  border-color: #e5e7eb !important;
+}
+
+.border {
+  border-color: #87acdf !important;
+}
+
+.card-header:first-child {
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+}
+
+.bg-blue {
+  background-color: #87c9db42 !important;
+}
+
+/* Calendar Style */
+.calendar-wrapper {
+    width: 400px;
+}
+
+.react-calendar {
+  width: 100% !important;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Round main calendar container */
+.react-calendar {
+
+  /* Main 4 corners */
+  overflow: hidden;
+  /* Ensures inner content doesn't spill out */
+  border: 1px solid #dee2e6;
+  background-color: #fff;
+
+  & abbr[title] {
+    text-decoration: none !important;
+  }
+
+  & .react-calendar__navigation__arrow {
+    padding: 12px !important;
+  }
+
+  & .react-calendar__navigation__label__labelText {
+    font-size: 15px !important;
+    ;
+  }
+}
+
+/* Optional: style navigation bar (top of calendar) */
+.react-calendar__navigation {
+  background-color: #c2d8ee;
+  /* light Bootstrap bg */
+  border-bottom: 1px solid #dee2e6;
+  margin-bottom: 0 !important;
+}
+
+.react-calendar__navigation button,
+.react-calendar__month-view__weekdays {
+  color: rgb(8 73 163) !important;
+}
+
+.react-calendar__navigation button {
+  min-width: auto !important;
+}
+
+/* Optional: weekdays row */
+.react-calendar__month-view__weekdays {
+  background-color: #e9ecef;
+  /* Bootstrap light gray */
+}
+
+/* Optional: tiles (days) */
+.react-calendar__tile {
+  border-radius: 0;
+  /* keep day tiles square inside the rounded calendar */
+}
+
+.form-floating>.form-control,
+.form-floating>.form-select {
+  height: calc(3.2rem + calc(var(--bs-border-width) * 2)) !important;
+  min-height: calc(3.2rem + calc(var(--bs-border-width) * 2)) !important;
+  line-height: 1;
+  font-size: 15px;
+  border: 2.5px solid #0d6efd !important;
+  border-radius: 0;
+}
+
+.form-floating>label {
+  padding: 0.8rem 3rem !important;
+}
+
+.profile-icon {
+  background: linear-gradient(to right, #b7ddff, white);
+  padding: 4px 9px 4px 8px;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+  font-size: 22px;
+}
+
+label.btn-primary {
+  font-size: 12px !important;
+  height: 30px;
+  padding: 7px;
+  font-weight: 500 !important;
+  border-radius: 6px;
+}
+
+.time-slot .btn-outline-primary {
+  border-radius: 3px;
+  height: 30px;
+  font-weight: 500;
+}
+.btn.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.table thead th:first-child {
+  border-top-left-radius: 12px;
+}
+
+.table thead th:last-child {
+  border-top-right-radius: 12px;
+}
+.table-bordered>:not(caption)>*>* {
+    border-width: 1px var(--bs-border-width) !important;
+    border-color: #94c4ee !important;
+}
+.table>:not(caption)>*>*{
+  padding: .6rem .6rem !important;
+}
+.search-form{
+  gap: 15px;
+
+  & .form-control,
+  & .form-select {
+    border-radius: 5px;
+  }
+}
+#appointmentsAccordion .btn-outline-primary {
+    border-radius: 4px;
+    height: auto;
+    font-weight: 500;
+}
+.accordion-button{
+    background-color: #fef4d2 !important;
+    border: 5px solid #ffffff;
+}
+.shadow-sm {
+  box-shadow: 0px 0px 4px 0px #0849a396 !important
+
+}
+.toggle-container {
+  display: inline-flex;
+  background: #f1f5fb;
+  border-radius: 50px;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.toggle-btn {
+  border: none;
+  background: transparent;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-weight: 600;
+  color: #6c757d;
+  transition: all 0.3s ease;
+}
+
+.toggle-btn.active {
+  background: white;
+  color: #0d6efd;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.toggle-btn:hover {
+  color: #0d6efd;
+}
